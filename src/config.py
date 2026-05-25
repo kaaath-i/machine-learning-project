@@ -1,0 +1,10 @@
+MODEL_NAME = "Helsinki-NLP/opus-mt-en-de"
+NLLB_MODEL = "facebook/nllb-200-distilled-600M"
+MAX_LENGTH = 128
+BATCH_SIZE = 16
+NUM_EPOCHS = 3
+LEARNING_RATE = 2e-5
+SEED = 42
+TEST_SIZE = 0.2
+DATASET_SIZE = 10000
+

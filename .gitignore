@@ -14,3 +14,5 @@ __pycache__/
 *.pt
 *.bin
 *.safetensors
+test/
+nltk_data/
