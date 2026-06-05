@@ -39,7 +39,7 @@ data = load_data()
 
 # Header
 st.title("🌐 EN → DE Translation Comparison")
-st.caption(f"Comparing NLLB, MarianMT Pipeline, and Fine-Tuned MarianMT on {len(data)} Europarl test sentences.")
+st.caption(f"comparing NLLB, MarianMT Pipeline and Fine-Tuned MarianMT on {len(data)} Europarl test sentences")
 
 # Session state
 if "index" not in st.session_state:
